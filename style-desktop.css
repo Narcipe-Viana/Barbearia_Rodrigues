@@ -1,0 +1,44 @@
+@media screen and (min-width: 1024px) {
+    .typewriter-container-align {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1vh; /* Ajuste conforme necessário */
+    }
+
+    .typewriter-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Ajuste conforme necessário */
+    }
+
+    #typewriter-text {
+        font-size: 2rem; /* Ajuste conforme necessário */
+        text-align: center;
+    }
+
+    .imagem-de-fundo-home-1{
+        height: calc(100vh - 50px);
+        
+    }
+    .imagem-de-fundo-home{
+        height: calc(100vh - 50px);
+
+    }
+
+    #typewriter-text {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        white-space: pre-wrap; /* Espaço entre o texto e o botão */
+        color: white;
+        
+    }
+    .alinhamento1{
+        display: flex;
+        align-items: center;
+    }
+
+
+}

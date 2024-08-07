@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Texto a ser digitado
-    const text = "Bem-vindo à \nBarbearia Rodrigues";
+    const text = "Bem-vindo à \nBarbearia Rodrigues!";
     const typewriterText = document.getElementById('typewriter-text');
 
     typeWriter(text, typewriterText, 100, function() {
@@ -33,5 +33,14 @@ document.addEventListener('DOMContentLoaded', function() {
         button.id = 'schedule-button';
         button.textContent = 'Agende seu horário';
         typewriterText.parentElement.appendChild(button);
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elem = document.querySelector('.gallery');
+    var msnry = new Masonry(elem, {
+        itemSelector: '.gallery-item',
+        columnWidth: '.gallery-item',
+        percentPosition: true
     });
 });
